@@ -17,17 +17,21 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SWToolbox"
+  s.homepage         = "https://github.com/sarunw/SWToolbox"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Sarun Wongpatcharapakorn" => "artwork.th@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SWToolbox.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sarunw/SWToolbox.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.subspec 'CoreData' do |ss|
+    ss.source_files = 'Pod/Classes/CoreData/**/*.{h,m}'
+    ss.frameworks = 'CoreData'
+  end
+
   s.resource_bundles = {
     'SWToolbox' => ['Pod/Assets/*.png']
   }
