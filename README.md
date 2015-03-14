@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SWToolbox.svg?style=flat)](http://cocoadocs.org/docsets/SWToolbox)
 [![Platform](https://img.shields.io/cocoapods/p/SWToolbox.svg?style=flat)](http://cocoadocs.org/docsets/SWToolbox)
 
+There is a time when I open my old projects to copy classes into a new one.
+
+This toolbox is mean to end that copy once, and for all.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
