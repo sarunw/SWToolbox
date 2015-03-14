@@ -10,12 +10,11 @@
 Pod::Spec.new do |s|
   s.name             = "SWToolbox"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SWToolbox."
+  s.summary          = "Curated classes I usually used in project."
   s.description      = <<-DESC
-                       An optional longer description of SWToolbox
+                       There is a time when I open my old projects to copy classes into a new one.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       This toolbox is mean to end that copy once, and for all.
                        DESC
   s.homepage         = "https://github.com/sarunw/SWToolbox"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
