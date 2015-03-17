@@ -31,6 +31,11 @@ Pod::Spec.new do |s|
     ss.frameworks = 'CoreData'
   end
 
+  s.subspec 'Helper' do |ss|
+    ss.source_files = 'Pod/Classes/Helper/**/*.{h,m}'
+  end
+
+
   s.resource_bundles = {
     'SWToolbox' => ['Pod/Assets/*.png']
   }
