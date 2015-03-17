@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SWToolbox"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "Curated classes I usually used in project."
   s.description      = <<-DESC
                        There is a time when I open my old projects to copy classes into a new one.
