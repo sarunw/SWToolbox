@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
+  s.default_subspec = 'CoreData', 'Helper'
+
   s.subspec 'CoreData' do |ss|
     ss.source_files = 'Pod/Classes/CoreData/**/*.{h,m}'
     ss.frameworks = 'CoreData'
@@ -33,8 +35,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Test' do |ss|
     ss.source_files = 'Pod/Classes/Test/**/*.{h,m}'
-    ss.frameworks = 'CoreData'
-    ss.frameworks = 'XCTest'
+    ss.frameworks = 'CoreData', 'XCTest'
   end
 
   s.subspec 'Helper' do |ss|
