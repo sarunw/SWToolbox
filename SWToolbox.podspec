@@ -31,6 +31,12 @@ Pod::Spec.new do |s|
     ss.frameworks = 'CoreData'
   end
 
+  s.subspec 'Test' do |ss|
+    ss.source_files = 'Pod/Classes/Test/**/*.{h,m}'
+    ss.frameworks = 'CoreData'
+    ss.frameworks = 'XCTest'
+  end
+
   s.subspec 'Helper' do |ss|
     ss.source_files = 'Pod/Classes/Helper/**/*.{h,m}'
   end
