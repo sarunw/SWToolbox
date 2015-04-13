@@ -1,20 +1,20 @@
 PODS:
-  - SWToolbox (1.0.0):
-    - SWToolbox/CoreData (= 1.0.0)
-    - SWToolbox/Helper (= 1.0.0)
-  - SWToolbox/CoreData (1.0.0):
-    - SWToolbox/CoreData/Test (= 1.0.0)
-  - SWToolbox/CoreData/Test (1.0.0)
-  - SWToolbox/Helper (1.0.0)
+  - SWToolbox (1.0.1):
+    - SWToolbox/CoreData (= 1.0.1)
+    - SWToolbox/Helper (= 1.0.1)
+  - SWToolbox/CoreData (1.0.1)
+  - SWToolbox/Helper (1.0.1)
+  - SWToolbox/Test (1.0.1)
 
 DEPENDENCIES:
   - SWToolbox (from `../`)
+  - SWToolbox/Test (from `../`)
 
 EXTERNAL SOURCES:
   SWToolbox:
     :path: ../
 
 SPEC CHECKSUMS:
-  SWToolbox: 14058c50bb055e9d52526f141e649ef0e9fa1c78
+  SWToolbox: 663fe75c48d254baa55ce8125313b4038a0158b1
 
 COCOAPODS: 0.36.0.beta.2

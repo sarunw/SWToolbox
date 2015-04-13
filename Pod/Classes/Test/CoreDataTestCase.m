@@ -13,6 +13,7 @@
 - (NSString *)resourceName
 {
     [self doesNotRecognizeSelector:_cmd];
+    return nil;
 }
 
 - (void)setUp {

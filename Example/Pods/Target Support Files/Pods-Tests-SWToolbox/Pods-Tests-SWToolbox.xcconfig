@@ -1,1 +1,2 @@
-PODS_TESTS_SWTOOLBOX_OTHER_LDFLAGS = -framework "CoreData"
+PODS_TESTS_SWTOOLBOX_FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+PODS_TESTS_SWTOOLBOX_OTHER_LDFLAGS = -framework "CoreData" -framework "XCTest"

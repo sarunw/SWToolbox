@@ -5,7 +5,7 @@ target 'SWToolbox', :exclusive => true do
 end
 
 target 'Tests', :exclusive => true do
-  pod "SWToolbox", :path => "../"
+  pod "SWToolbox/Test", :path => "../"
 
   
 end
